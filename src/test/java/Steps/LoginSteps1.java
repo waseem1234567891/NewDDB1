@@ -18,6 +18,7 @@ public class LoginSteps1 {
     public void user_is_on_login_page_of_the_application() {
         // Write code here that turns the phrase above into concrete actions
         System.out.println("User is on login page of the Application");
+        System.out.println("hello login");
     }
     @When("user login with following user name and password")
     public void user_login_with_following_user_name_and_password(DataTable dataTable) {
